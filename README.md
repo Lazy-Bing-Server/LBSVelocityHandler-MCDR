@@ -44,7 +44,7 @@ Config file path: `config/handler_velocity_lbs/config.json`
    Default_value: `4`
 
 
-3. `redirect_prefixes_map`
+3. `replace_prefixes_map`
 
    Replace the prefixes defined in these keys to their corresponding values
 

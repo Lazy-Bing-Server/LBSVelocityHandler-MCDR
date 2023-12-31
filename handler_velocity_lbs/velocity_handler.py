@@ -71,7 +71,7 @@ class LBSVelocityHandler(VelocityHandler):
         args = list(text.split(' ', 1))
         if args[0] in config.ignore_prefixes:
             return None
-        redirect_map = config.redirect_prefixes_map
+        redirect_map = config.replace_prefixes_map
         if args[0] in redirect_map.keys():
             args[0] = redirect_map.get(args[0])
         return ' '.join(args)
