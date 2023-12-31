@@ -1,0 +1,11 @@
+handler_velocity_lbs:
+  reload:
+    reloaded: 插件已重载
+
+  help:
+    mcdr: 更好的 Velocity 服务端处理器
+
+  credits:
+    version: "版本号: "
+    reload: "输入 §7{pre} reload§r 重载配置文件"
+    reload_h: "点此重载配置文件"

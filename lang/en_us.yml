@@ -1,0 +1,11 @@
+handler_velocity_lbs:
+  reload:
+    reloaded: Plugin reloaded
+
+  help:
+    mcdr: Better Velocity server handler
+
+  credits:
+    version: "Version: "
+    reload: "Use §7{pre} reload§r to reload handler config"
+    reload_h: "Click to reload handler config"

@@ -1,0 +1,19 @@
+{
+    "id": "handler_velocity_lbs",
+    "name": "LBS Velocity Handler",
+    "version": "0.1.0-dev.1",
+    "author": [
+        "Ra1ny_Yuki"
+    ],
+    "link": "https://github.com/Lazy-Bing-Server/LBSVelocityHandler-MCDR",
+    "description": {
+        "en_us": "Better Velocity server handler",
+        "zh_cn": "更好的 Velocity 服务端处理器"
+    },
+    "dependencies": {
+        "mcdreforged": ">=2.13.0-alpha.1"
+    },
+    "resources": [
+        "lang", "LICENSE"
+    ]
+}
