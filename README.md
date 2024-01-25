@@ -15,9 +15,8 @@ MCDReforged >= 2.13.0-alpha.1 (and its requirement [parse](https://pypi.org/proj
 ## Usage
 
 1. Place this plugin in your MCDR plugin directory
-2. Set `lbs_velocity_handler` to your server handler in `config.yml` under working directory of MCDR
-3. Install some Velocity plugin to print player chat to Velocity console, such as [VelocityMCDRCommand](https://github.com/Lazy-Bing-Server/MCDRCommand-Velocity/)
-4. Start MCDR
+2. Install some Velocity plugin to print player chat to Velocity console, such as [VelocityMCDRCommand](https://github.com/Lazy-Bing-Server/MCDRCommand-Velocity/)
+3. Start MCDR
 
 ## Command
 
