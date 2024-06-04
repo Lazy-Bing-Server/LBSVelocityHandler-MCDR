@@ -10,7 +10,9 @@ An enhanced velocity handler
 
 ## Requirements
 
-MCDReforged >= 2.13.0-alpha.1 (and its requirement [parse](https://pypi.org/project/parse/))
+[`parse`](https://github.com/r1chardj0n3s/parse)
+
+[`mcdreforged`](https://mcdreforged.com) >= 2.13.0-alpha.1
 
 ## Usage
 
