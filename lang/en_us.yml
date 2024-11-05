@@ -1,4 +1,4 @@
-handler_velocity_lbs:
+lbs_velocity_handler:
   reload:
     reloaded: Plugin reloaded
 

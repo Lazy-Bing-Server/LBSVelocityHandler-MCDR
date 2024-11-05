@@ -29,7 +29,7 @@ Default command prefix: `!!hvl` (Can be configured in config file)
 
 ## Config
 
-Config file path: `config/handler_velocity_lbs/config.json`
+Config file path: `config/lbs_velocity_handler/config.json`
 
 1. `reload_config_prefix`
 
