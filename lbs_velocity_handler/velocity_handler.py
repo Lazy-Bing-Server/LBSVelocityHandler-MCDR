@@ -8,7 +8,7 @@ from mcdreforged.api.types import ServerInformation, Info, ServerInterface
 
 if typing.TYPE_CHECKING:
     from mcdreforged.handler.abstract_server_handler import InfoSource
-    from handler_velocity_lbs import Main
+    from lbs_velocity_handler import Main
 
 
 MessageText = typing.Union[str, RTextBase]

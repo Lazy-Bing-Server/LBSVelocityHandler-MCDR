@@ -1,3 +1,5 @@
+import os.path
+import shutil
 from typing import List, Dict
 
 from mcdreforged.api.all import Serializable, ServerInterface
@@ -17,4 +19,9 @@ class Config(Serializable):
 
     @classmethod
     def load(cls):
+        psi = ServerInterface.psi()
+        new_data_folder = psi.get_data_folder()
+        old_data_folder = os.path.join('config', 'handler_velocity_lbs')
+        if not os.path.isdir(new_data_folder) and os.path.isdir(old_data_folder):
+            shutil.copytree(old_data_folder, new_data_folder)
         return ServerInterface.psi().load_config_simple(target_class=cls)

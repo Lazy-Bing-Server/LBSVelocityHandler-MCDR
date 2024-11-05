@@ -1,5 +1,5 @@
 {
-    "id": "handler_velocity_lbs",
+    "id": "lbs_velocity_handler",
     "name": "LBS Velocity Handler",
     "version": "1.0.0",
     "author": [

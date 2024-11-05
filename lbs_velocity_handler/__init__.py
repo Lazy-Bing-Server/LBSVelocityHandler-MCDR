@@ -5,8 +5,8 @@ from mcdreforged.api.all import PluginServerInterface, CommandSource
 from mcdreforged.api.rtext import *
 from mcdreforged.api.command import *
 
-from handler_velocity_lbs.config import Config
-from handler_velocity_lbs.velocity_handler import LBSVelocityHandler
+from lbs_velocity_handler.config import Config
+from lbs_velocity_handler.velocity_handler import LBSVelocityHandler
 
 
 __all__ = [
